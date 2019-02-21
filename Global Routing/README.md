@@ -5,17 +5,8 @@ overflows first and then the total wirelength. Here the overflow on a tile bound
 as the amount of demand that exceeds the capacity, i.e., overflow = max(0, demand - capacity). 
 ### Sample Case
 ![N|Solid](samplecase.JPG)
-![N|Solid](sampleinput.png)
-![N|Solid](sampleoutput.png)
-### Environment
-* Python 3.6
-* Numpy: 1.15
-* Scipy: 1.1.0
-* Pandas: 0.23.4
-* Keras: 2.1.6
-* Jieba 0.39
-* Gensim 3.6.0
-* Emoji 0.5.1
+![N|Solid](sampleinput.PNG)
+![N|Solid](sampleoutput.PNG)
 ### Usage
 * Compile 
 ```sh
