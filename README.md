@@ -7,7 +7,7 @@ other in the subset) in the region formed by the chord ij and the arc between th
 Figure 2 (d)). As the example shown in Figure 2 (a), M(2, 7) = 1, M(3, 3) = 0, and M(0, 11) = 3. You are
 asked to write a program that computes the number of chords in the maximum planar subset in a circle of n
 chords, i.e., compute M(0, 2n − 1), and reports the details of each chords, as shown in Figure 2 (b).
-![N|Solid](problem.PNG)
+![N|Solid](Maximum Planar Subset/problem.PNG)
 ### Usage
 * Compile 
 ```sh
@@ -24,9 +24,9 @@ the global router routes all nets in the routing region. The objective is to min
 overflows first and then the total wirelength. Here the overflow on a tile boundary is calculated
 as the amount of demand that exceeds the capacity, i.e., overflow = max(0, demand - capacity). 
 ### Sample Case
-![N|Solid](samplecase.JPG)
-![N|Solid](sampleinput.PNG)
-![N|Solid](sampleoutput.PNG)
+![N|Solid](Global Routing/samplecase.JPG)
+![N|Solid](Global Routing/sampleinput.PNG)
+![N|Solid](Global Routing/sampleoutput.PNG)
 ### Usage
 * Compile 
 ```sh
