@@ -4,9 +4,9 @@ the global router routes all nets in the routing region. The objective is to min
 overflows first and then the total wirelength. Here the overflow on a tile boundary is calculated
 as the amount of demand that exceeds the capacity, i.e., overflow = max(0, demand - capacity). 
 ### Sample Case
-![N|Solid](/samplecase.png)
-![N|Solid](/sampleinput.png)
-![N|Solid](/sampleoutput.png)
+![N|Solid](samplecase.jpg)
+![N|Solid](sampleinput.png)
+![N|Solid](sampleoutput.png)
 ### Environment
 * Python 3.6
 * Numpy: 1.15
